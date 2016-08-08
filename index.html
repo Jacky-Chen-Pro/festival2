@@ -91,7 +91,7 @@ var together = new Date();
 var year = getUrlParam("year");
 var month = getUrlParam("month");
 var day = getUrlParam("day");
-var month1 = parseInt(getUrlParam("month"))-1;
+var month1 = parseInt(month)-1;
 
 together.setFullYear(year, month1, day);
 together.setHours(0);
